@@ -9,12 +9,12 @@ OHLCV data for market instruments such as the S%P500 pulled from APIs, attemptin
 The formulation used to generate the upper and lower Bollinger band is defined as:
 
 $$
-P \pm n\sigma
+\text{Close Price} \pm n\sigma
 $$
 
 where:
-1. $n$ is a scaling factor (typically 2)  
-2. $\sigma$ is the standard deviation of closing prices  
+1. $n$ is a scaling factor (typically 2).
+2. $\sigma$ is the standard deviation of closing prices.
 
 ![Monte Carlo Result](Images/Labelling.png)
 
