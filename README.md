@@ -1,5 +1,5 @@
 # Project Overview
-The purpose of this project is to determine when to take, or exit a position on a financial instrument, this is done by training a machine learning model (neural network) on
+The purpose of this project is to determine when to take, or exit a position on a financial instrument by training a machine learning model (neural network) on
 OHLCV data for market instruments such as the S%P500 pulled from APIs, attempting to deploy the model and generalise on similar data. Labelling of training data is done based on three conditions labelling a datapoint as buy, sell, or hold:
 
 1. For a datapoint, if the future close price exceeds an upper bound within a set time frame it is labelled as buy (1), this is done by specifying a time_frame (say 5 days) and setting the upper bound using a Bollinger band.
