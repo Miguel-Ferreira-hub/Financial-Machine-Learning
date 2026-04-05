@@ -8,7 +8,7 @@ OHLCV data for market instruments such as the S%P500 pulled from APIs, attemptin
 
 The formulation used to generate the upper and lower Bollinger band is:
 
-$ Close Price \pm n \time \sigma $
+$ \text{Close Price} \pm n \times \sigma $
 
 Where n is a factor affecting how far the band is from the close price (typically 2) and $ \sigma $ is the volatility (standard deviation of close prices).
 
