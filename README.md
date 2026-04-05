@@ -6,4 +6,6 @@ OHLCV data for market instruments such as the S%P500 pulled from APIs, attemptin
 2. For a datapoint, if the close price drops below the lower bound withint the set time frame it is labelled as sell (-1), the lower bound is a lower Bollinger band.
 3. If the close price does not cross any bounds within the time frame it is labelled as hold (0).
 
+![Monte Carlo Result](Images/Labelling.png)
+
 # Future Work
