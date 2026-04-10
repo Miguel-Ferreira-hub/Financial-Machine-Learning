@@ -21,7 +21,7 @@ where:
 The figure above shows an exmaple of how I have established labelling thresholds, exceeding the green limit before any other boundaries results in a buy label (1), exceeding the red results in a sell label (-1) and exceeding the white results in a hold (0). It was commonly found that the hold signal (0) is particularly scarce across tested data nd in these cases the problem has been reduced to a binary classification problem of buy and sell.
 
 # Data Scaling and Features
-This project generally works with returns scaled in a Z-score normalisation style with the addition of some traditional technical indicators. Improvements would come in the form of using more robust, statistically sound and information rich features such as through the use of fractional differencing, including tests for feature importance.
+This project generally works with returns scaled in a Z-score normalisation style with the addition of some traditional technical indicators. Improvements would come in the form of using more robust, statistically sound and information rich features such as through the use of fractional differencing, with the inclusion of tests for feature importance.
 
 # Future Work
 Future work will focus on:
