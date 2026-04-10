@@ -16,7 +16,7 @@ where:
 1. $n$ is a scaling factor (typically 2).
 2. $\sigma$ is the standard deviation of closing prices.
 
-![Monte Carlo Result](Images/Labelling.png)
+![Monte Carlo Result](Images/Labelling_Example.png)
 
 The figure above shows an exmaple of how I have established labelling thresholds, exceeding the green limit before any other boundaries results in a buy label (1), exceeding the red results in a sell label (-1) and exceeding the white results in a hold (0). It was commonly found that the hold signal (0) is particularly scarce across tested data nd in these cases the problem has been reduced to a binary classification problem of buy and sell.
 
